@@ -9,3 +9,18 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 Numero di push minimo: 6
 Ricordatevi di spezzare il problema in sottoproblemi come visto a lezione nel file README.md
 Buon lavoro!
+
+#Steps
+-chiedere numero di chilometri ed età all'utente
+
+-inserire i valori in due variabili
+
+-calcolare il prezzo del biglietto in base ai km
+
+-SE l'età del passeggero è minore di 18
+-applicare lo sconto del 20%
+
+-SE l'età del passeggero è superiore a 65
+-applicare lo sconto del 40%
+
+-convertire il prezzo finale nel formato corretto(due cifre decimali)
