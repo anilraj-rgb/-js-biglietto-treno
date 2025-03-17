@@ -24,3 +24,8 @@ if (age < 18) {
    else {
     console.log("Non hai diritto ad alcuno sconto");
   }
+
+  // PRINT FINAL PRICE
+finalPrice = price.toFixed(2);
+console.log("Il tuo prezzo finale è " + finalPrice + "€");
+alert("Il tuo prezzo finale è " + finalPrice + "€");
