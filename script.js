@@ -17,5 +17,10 @@ console.log("Il prezzo del biglietto non scontato è " + finalPrice + "€");
 //APPLY THE DISCOUNT
 if (age < 18) {
     price = price - (price * 20) / 100;
-  } else if (age > 65) {
+  }
+   else if (age > 65) {
     price = price - (price * 40) / 100;
+  }
+   else {
+    console.log("Non hai diritto ad alcuno sconto");
+  }
